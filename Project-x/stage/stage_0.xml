@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stage gColor="1" bgColor="9" boxColor="10">
+    <items>
+    	  <item tag="1" color="7" width="50" height="50" position="30,0">
+    	  	<!--<action 1 来回移动，dura移动的时间 para移动的距离"x,y"></action>-->
+            <action type="1" dura="1.5" para="10,0"></action>
+        </item>
+        <item tag="1" color="7" width="50" height="50" position="30,0">
+    	  	<!--<action 2 变形，dura变形的时间 para变形的倍数"x,y"></action>-->
+            <action type="2" dura="1.5" para="2,1"></action>
+        </item>
+        <item tag="1" color="7" width="50" height="50" position="30,0">
+        	<!--<action 3 渐隐，dura时间 ></action>-->
+            <action type="3" dura="1.5" ></action>
+        </item>
+        <item tag="1" color="7" width="50" height="50" position="50,0">
+        	<!--<action 4 移动加变形，dura时间 para移动的距离"x,y"></action>-->
+            <action type="4" dura="1.5" para="10,0"></action>
+        </item>
+        <item tag="1" color="7" width="50" height="50" position="50,0">
+        	<!--<action 5 曲线移动，dura时间 para移动的点以冒号为间隔"x：y：z"></action>-->
+            <action type="5" dura="1.5" para="0,0:60,0:60,30:20,30:0,0"></action>
+        </item>
+        <item tag="1" color="7" width="50" height="50" position="20,0">
+            <!--<action type="5" dura="1.5" para="0,0:60,0:60,30:20,30:0,0"></action>-->
+            <!-- type=6是跳跃，0,0:80:5  0,0是跳跃的终点， 80是跳跃高度， 5跳跃次数-->
+            <!--<action type="6" dura="3" para="0,0:80:5"></action>-->
+            <!-- type=7是闪烁， para跳跃次数-->
+            <action type="7" dura="3" para="10"></action>
+        </item>
+        <item tag="1" color="7" width="50" height="50" position="50,0">
+        	<!-- action 8 过n秒后移动，dura移动的时间 para="2:40,0" 2:暂停时间 40,0移动距离-->
+        	<action type="8" dura="3" para="2:40,0"></action>
+        </item>
+     </items>
+</stage>
